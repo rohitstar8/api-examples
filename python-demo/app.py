@@ -23,12 +23,12 @@ except:
 try:
 	app_id = os.environ["APP_ID"]
 except:
-	app_id = "YOUR_APP_ID"
+	app_id = "0a7ce538"
 
 try:
 	app_key = os.environ["APP_KEY"]
 except:
-	app_key = "YOUR_APP_KEY"
+	app_key = "b0b05bce9a328f2bf0f56991c69c89d7"
 
 headers = {
 	# "Content-Type": "application/json",
